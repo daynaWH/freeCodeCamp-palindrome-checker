@@ -1,0 +1,72 @@
+:root {
+    --blue: rgb(10, 10, 35);
+    --lighterBlue: rgb(46, 46, 255);
+    --green: rgb(0, 71, 27);
+    --purple: rgb(90, 1, 167);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--white);
+}
+
+h1 {
+    font-family: "Space Mono", serif;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+}
+
+.body-wrapper {
+    width: 28rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.body-wrapper div {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.container {
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 0.3rem 0.5rem var(--lighterBlue);
+}
+
+input[type="text"] {
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: var(--purple) solid 2px;
+    padding: 0.3rem 2rem;
+}
+
+input[type="button"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding: 0.6rem 1.4rem;
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 1.4rem;
+}
+
+.definition {
+    background-color: var(--green);
+    font-size: 1.3rem;
+}

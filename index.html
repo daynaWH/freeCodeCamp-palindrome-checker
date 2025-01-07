@@ -4,8 +4,30 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Palindrome Checker</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="styles.css" />
         <script src="script.js" defer></script>
     </head>
-    <body></body>
+    <body>
+        <div class="body-wrapper">
+            <h1>freeCodeCamp Project</h1>
+            <h2>Is it a Palindrome?</h2>
+            <div class="container">
+                <p>Enter in text to check for a palindrome:</p>
+                <input type="text" id="text-input" />
+                <input type="button" value="Check" />
+                <p id="result" class="result">is a palindrome.</p>
+            </div>
+            <div class="definition">
+                &#128161; A <em>palindrome</em> is a word or sentence that's
+                spelled the same way both forward and backward, ignoring
+                punctuation, case, and spacing.
+            </div>
+        </div>
+    </body>
 </html>

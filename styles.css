@@ -51,7 +51,7 @@ input[type="text"] {
     padding: 0.3rem 2rem;
 }
 
-input[type="button"] {
+button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     padding: 0.6rem 1.4rem;
